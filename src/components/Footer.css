@@ -3,15 +3,18 @@
     color: white;
     left: 0%;
     right: 0%;
-    bottom: 0;
-    height: 25%;
+    bottom: 0%;
+    height: 30%;
     position: absolute;
     width: 100%;
-    
-
+  
 }
 
 p{
     color: white;
     margin-left: 1%;
+}
+
+h4{
+  margin-left: 1%;
 }
