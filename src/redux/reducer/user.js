@@ -1,14 +1,12 @@
 import { usersData } from '../../mockdata/usersData';
 
-
-
 const initial_state = {
     loggedInUser: null,
     error: null,
     data: usersData
 };
 
-export const user =(state=initial_state, action)=>{
+export const user =(state=initial_state, action={})=>{
 
   switch(action.type){
     case 'add_user':
@@ -48,8 +46,10 @@ export const user =(state=initial_state, action)=>{
       } 
       else {
         return {...state, error: "User not found, Please register!"}
-  
+      }
+    default: 
+      return state;
   }
 
 }
-}
+

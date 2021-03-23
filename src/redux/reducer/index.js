@@ -4,8 +4,8 @@ import { user } from './user';
 
 const RootReducer= combineReducers(
   {
-    course,
-    user
+    course: course,
+    user: user
   }
 );
 

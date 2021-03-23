@@ -3,8 +3,7 @@ export const login=(username,password) =>(dispatch)=>{
    dispatch ( {type:login_user ,
     username,
     password,
-    user_id: Math.random(),
-    
+        
     }
 )
 }

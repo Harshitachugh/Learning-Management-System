@@ -2,41 +2,41 @@ export const courseData = [
   {
     coursename: "Javascript",
     courseid: 1,
-    creatorFaculty: user_id
+    creatorFaculty: 1
   },
   {
     coursename: "React",
     courseid: 2,
-    creatorFaculty: user_id
+    creatorFaculty: 1
   },
   {
     coursename: "Web Development",
     courseid: 3,
-    creatorFaculty: user_id
+    creatorFaculty: 1
   },
   {
     coursename: "App Development",
     courseid: 4,
-    creatorFaculty: user_id
+    creatorFaculty: 1
   },
   {
     coursename: "Python",
     courseid: 5,
-    creatorFaculty: user_id
+    creatorFaculty: 1
   },
   {
     coursename: "Java",
     courseid: 6,
-    creatorFaculty: user_id
+    creatorFaculty: 1
   },
   {
     coursename: "Machine Learning",
     courseid: 7,
-    creatorFaculty: user_id
+    creatorFaculty: 1
   },
   {
     coursename: "Data Science",
     courseid: 8,
-    creatorFaculty: user_id
+    creatorFaculty: 1
   }
 ]

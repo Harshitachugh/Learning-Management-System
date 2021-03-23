@@ -2,8 +2,8 @@ import React from 'react';
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import './login.css'
-import { connect } from 'react-redux'
-import { login } from '../../redux/actions'
+//import { connect } from 'react-redux'
+//import { login } from '../../redux/actions'
 import { Redirect } from "react-router-dom";
 /*import Header from '../../components/Header'
 import Footer from '../../components/Footer'
@@ -56,14 +56,8 @@ const Login = (props) => {
   )
 }
 
-export const mapStateToProps = ({ user: { error, loggedInUser } }) => {
-  return ({
-    error,
-    loggedInUser
-  })
-}
 
 
-export default connect(mapStateToProps, { login })(Login);
+export default Login;
 
 

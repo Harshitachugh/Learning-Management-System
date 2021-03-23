@@ -4,7 +4,7 @@ import Login from '../Pages/Login'
 import Registration from '../Pages/Registration'
 import {Header} from './Header';
 import { Switch, Route } from 'react-router-dom'
-
+//import student from '../Pages/studentDash'
 
 function App() {
   return (

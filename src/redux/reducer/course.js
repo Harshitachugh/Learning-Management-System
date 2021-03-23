@@ -4,7 +4,7 @@ const initial_state = {
     data: courseData
 };
 
-export const course=(state=initial_state, action)=>{
+export const course=(state=initial_state, action={})=>{
 
   switch(action.type){
     case 'add_course':
@@ -39,6 +39,8 @@ export const course=(state=initial_state, action)=>{
         ]
 
       } 
+    default:
+      return state;
   }
 
 }
